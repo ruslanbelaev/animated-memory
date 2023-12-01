@@ -1,0 +1,12 @@
+struct UsingCustomViewModifierView: View {
+    var body: some View {
+        Text("Hello, world!")
+            .witchCustomViewModifier()
+    }
+}
+
+struct UsingCustomViewModifierView_Previews: PreviewProvider {
+    static var previews: some View {
+        UsingCustomViewModifierView()
+    }
+}
